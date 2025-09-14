@@ -1,0 +1,43 @@
+
+
+:host {
+    display: block;
+    max-width: 700px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #0a2342;
+  }
+  
+  input[type='file'] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    margin-bottom: 1.5rem;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #0a2342;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #07305c;
+    }
+  }
+  

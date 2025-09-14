@@ -1,0 +1,14 @@
+
+<h2>📘 Fix My Policy / Contract – Legal Rephraser</h2>
+
+<div class="tabs">
+  <a routerLink="/upload" routerLinkActive="active" class="tab">📄 Upload Document</a>
+  <a routerLink="/text" routerLinkActive="active" class="tab">✍️ Paste Text</a>
+</div>
+
+<main [@fadeSlideIn]="prepareRoute(outlet)">
+  <router-outlet #outlet="outlet"></router-outlet>
+</main>
+
+<h3 style="text-align: center;">🔍 Analysis Result</h3>
+<div id="response" [innerHTML]="responseText"></div>

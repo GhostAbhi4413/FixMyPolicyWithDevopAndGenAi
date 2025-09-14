@@ -1,0 +1,7 @@
+
+<label>Paste legal text:</label>
+<textarea [(ngModel)]="text" placeholder="Enter contract or policy text here..."></textarea><br><br>
+
+<button (click)="analyze()">Analyze Text</button>
+
+<div *ngIf="loading" class="loading-msg">⏳ Analyzing text...</div>

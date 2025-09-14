@@ -1,0 +1,4 @@
+<label>Choose a document (.pdf, .docx, .txt):</label>
+<input type="file" (change)="onFileChange($event)" accept=".pdf,.docx,.txt"><br><br>
+<button (click)="upload()">Analyze Document</button>
+<div *ngIf="loading">⏳ Analyzing document...</div>
